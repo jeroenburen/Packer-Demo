@@ -66,3 +66,5 @@ Restart-Service -Name 'WinRM' -Force
 
 'Disable the WinRM service in favor of OpenSSH...'
 Set-Service -Name 'WinRM' -StartupType 'Disabled'
+
+# end
